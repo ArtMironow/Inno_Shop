@@ -1,0 +1,3 @@
+@host = http://localhost:5003
+
+GET {{host}}/products/getall?page=1&pageSize=2

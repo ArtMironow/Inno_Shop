@@ -1,0 +1,12 @@
+@host = http://localhost:5003
+
+POST {{host}}/products/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3OWQwNTNjMS1jM2UxLTQwM2QtYTJlMi03NTdiNTcyZGMwNWMiLCJnaXZlbl9uYW1lIjoiQXJ0c2VtIiwiZmFtaWx5X25hbWUiOiJNaXJvbmF1IiwianRpIjoiYjk4NDlhYWQtZDc5Ny00Y2NkLTgzZjEtMzRkODhjMTFhNDE4IiwiZXhwIjoxNzMwNjQ2MzkzLCJpc3MiOiJJbm5vX1Nob3AuSWRlbnRpdHlTZXJ2aWNlIiwiYXVkIjoiSW5ub19TaG9wLklkZW50aXR5U2VydmljZSJ9.LhbsLlrhkivoeHMGrmXq1e0myhAZ1EbAXq_a53_9RSk
+
+{
+	"productName": "numbertwoy",
+	"description": "dcokeee",
+	"price": 35,
+	"isAvailable": true
+}

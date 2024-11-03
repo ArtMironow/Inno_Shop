@@ -1,0 +1,3 @@
+@host = http://localhost:5282
+
+GET {{host}}/products/getuserproducts/3B067941-24D5-41C2-A260-035F59DF3F70

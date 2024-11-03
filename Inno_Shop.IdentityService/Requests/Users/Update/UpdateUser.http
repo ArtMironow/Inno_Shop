@@ -1,0 +1,11 @@
+@host = http://localhost:5001
+
+POST {{host}}/users/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYjA2Nzk0MS0yNGQ1LTQxYzItYTI2MC0wMzVmNTlkZjNmNzAiLCJnaXZlbl9uYW1lIjoiQXN0c2VtIiwiZmFtaWx5X25hbWUiOiJNaXJvbmF1IiwianRpIjoiYTk0OTZhOGMtYzhhYi00ZTdmLThmYjctOTQ0ZjliNzc4M2U1IiwiZXhwIjoxNzI5OTcwNjE1LCJpc3MiOiJJbm5vX1Nob3AuSWRlbnRpdHlTZXJ2aWNlIiwiYXVkIjoiSW5ub19TaG9wLklkZW50aXR5U2VydmljZSJ9.vuRERndBSRl8hC_7qCGERxeN8QZiHsDZYd0fA45Z7GQ
+
+{
+	"id": "3b067941-24d5-41c2-a260-035f59df3f70",
+	"firstName": "Artsemm",
+	"lastName": "Mironauu"
+}

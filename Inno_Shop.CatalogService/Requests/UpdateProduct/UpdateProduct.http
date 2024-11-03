@@ -1,0 +1,13 @@
+@host = http://localhost:5282
+
+POST {{host}}/products/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYjA2Nzk0MS0yNGQ1LTQxYzItYTI2MC0wMzVmNTlkZjNmNzAiLCJnaXZlbl9uYW1lIjoiQXJ0c2VtbSIsImZhbWlseV9uYW1lIjoiTWlyb25hdXUiLCJqdGkiOiI5ZjUwMjNjZS1iZjAyLTRiYTktYTBmYy01ZjMzNjFhY2JiMTAiLCJleHAiOjE3MzAwNzM3NjUsImlzcyI6Iklubm9fU2hvcC5JZGVudGl0eVNlcnZpY2UiLCJhdWQiOiJJbm5vX1Nob3AuSWRlbnRpdHlTZXJ2aWNlIn0.5tgp6T7xx3KhOxGVn7eNo7sPcOthZmrbM_tJ6V9d4AA
+
+{
+	"productId" : "32E45A98-B58F-4B35-8A7B-103F51C055F5",
+	"productName": "twotwotwonumbertwo",
+	"description": "cokala",
+	"price": 10.5555,
+	"isAvailable": false
+}
